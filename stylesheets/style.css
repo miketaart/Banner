@@ -4,7 +4,7 @@
 
 :root {
     --coolblue-color: #0090e3;
-    --typenummer-color: #285dab
+    --model-color: #285dab
 }
 
 * {
@@ -12,7 +12,8 @@
     padding: 0;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     display: flex;
     justify-content: center;
@@ -25,9 +26,9 @@ html, body {
     width: 300px;
 }
 
-.head{
+.head {
     display: flex;
-    justify-content: flex-end;   
+    justify-content: flex-end;
     padding: 20px 20px 0 20px;
     margin: 0 0 66px 0;
 }
@@ -47,20 +48,35 @@ html, body {
     font-family: "Roboto Slab", sans-serif;
 }
 
-.typenummer {
+.model {
     margin: 0 0 30px 0;
     width: 202px;
     font-size: 16px;
     line-height: 20px;
     letter-spacing: -0.6px;
-    color: var(--typenummer-color);
+    color: var(--model-color);
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 800;
 }
+
+.moving {
+    position: relative;
+    right: -91px;
+    bottom: 152px;
+    animation: spinning 1s linear infinite;
+}
+
+@keyframes spinning {
+    to{ transform: rotate(360deg); }
+}
+
+#fadeIn { font-size: 0; opacity: 0; transition: 5000ms; }
+#fadeIn.run { font-size: 20px; opacity: 1; }
+
 .circle {
     position: relative;
     left: 189px;
-    bottom: 137px;
+    bottom: 220px;
     border-radius: 50%;
     width: 72px;
     height: 72px;
@@ -72,15 +88,13 @@ html, body {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 800;
     text-align: center;
-    
-
 }
 
 footer {
     height: 51px;
     display: flex;
     align-items: center;
-    background-color:var(--coolblue-color);
+    background-color: var(--coolblue-color);
     padding: 0px 20px;
 }
 
@@ -99,7 +113,9 @@ a {
     position: relative;
     left: 214px;
     bottom: 76px;
-    clip-path: inset(0 9.9px 20px 0);
-    width:96px;
+    clip-path: inset(0 9.9px 19.9px 0);
+    width: 96px;
     height: 96px;
 }
+
+

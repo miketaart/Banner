@@ -1,31 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./stylesheets/style.css">
     <title>Wasmachine</title>
 </head>
+
 <body>
-    <div class="banner">      
-            <div class="head">
-                <img id="samsung-logo" src="./images/supplier.png" alt="Samsung logo" >
-            </div>
+    <div class="banner">
+        <div class="head">
+            <img id="samsung-logo" src="./images/supplier.png" alt="Samsung logo">
+        </div>
         <div class="body">
             <div class="slogan">
                 <p>Een kind kan de was doen.</p>
             </div>
-    
-            <div class="typenummer">
-                <p >SAMSUNG WF70F5E0Q4W ECO BUBBLE</p>
+
+            <div class="model">
+                <p>SAMSUNG WF70F5E0Q4W ECO BUBBLE</p>
             </div>
-    
+
             <div>
+
                 <img src="./images/productafbeelding.svg" alt="wasmachine" width="260px">
-                <p class="circle">499,-</p>
+                <img class="moving" src="./images/drum.png" />
+
+                <div id="fadeIn"><p class="circle">499,-</p></div>
+                
             </div>
         </div>
-        
+
 
         <footer>
             <img id="arrow" src="./images/arrow.svg" alt="arrow">
@@ -34,6 +40,11 @@
         <img id="coolblue-logo" src="./images/coolblue-logo.svg" alt="logo Coolblue">
     </div>
 
-    
+
 </body>
+
+<script>
+    document.getElementById("fadeIn").className = "run";
+</script>
+
 </html>
