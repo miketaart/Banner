@@ -1,11 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@330&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+    --coolblue-color: #0090e3;
+    --typenummer-color: #285dab
+}
 
 * {
     margin: 0;
     padding: 0;
 }
+
 html, body {
     height: 100%;
     display: flex;
@@ -14,89 +20,86 @@ html, body {
 }
 
 .banner {
-    border: solid black 1px;
-    display: flex;
-    flex-direction: column;
-    height: 580px;
+    border: solid #DDDD 1px;
+    height: 600px;
     width: 300px;
-    color: white;
-    
 }
 
-.supplier-wrapper {
-    padding: 15px 15px 62px 20px;
+.head{
     display: flex;
     justify-content: flex-end;   
+    padding: 20px 20px 0 20px;
+    margin: 0 0 66px 0;
 }
 
-#samsung-logo {
-    object-fit: cover;
-    filter: brightness(0) saturate(100%) invert(71%) sepia(0%) saturate(253%) hue-rotate(148deg) brightness(86%) contrast(84%);
-    width: 88px;
-    height: 16px;
-
+.body {
+    height: 450px;
+    padding: 0px 20px;
 }
 
 .slogan {
-    padding: 0px 5px 10px 20px;
-    width: 186px;
-    height: 63px;
+    margin: 0 0 20px 0;
+    max-width: 188px;
+    text-align: right;
     font-size: 30px;
     line-height: 34px;
-    letter-spacing: 0px;
-    color: #0090e3;
+    color: var(--coolblue-color);
     font-family: "Roboto Slab", sans-serif;
 }
 
 .typenummer {
+    margin: 0 0 30px 0;
     width: 202px;
-    padding: 10px 10px 15px 20px;
-    height: 32px;
     font-size: 16px;
     line-height: 20px;
     letter-spacing: -0.6px;
-    color: #285dab;
+    color: var(--typenummer-color);
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 800;
 }
+.circle {
+    position: relative;
+    left: 189px;
+    bottom: 137px;
+    border-radius: 50%;
+    width: 72px;
+    height: 72px;
+    background-color: var(--coolblue-color);
+    font-size: 24px;
+    letter-spacing: -1px;
+    line-height: 72px;
+    color: #ffffff;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    
 
-#wasmachine {
-    margin: 15px 15px 94px 20px;
-    
-    
 }
 
-.footer {
+footer {
+    height: 51px;
     display: flex;
     align-items: center;
-    width: 260px;
-    height: 53px;
-    background-color: #1C90E4;
-    padding: 0 2px 0 20px;
+    background-color:var(--coolblue-color);
+    padding: 0px 20px;
 }
 
 a {
-    padding: 0 113px 0 5px;
-    max-height: 24px;
     color: white;
     text-decoration: none;
-    font-size: 15px;
     font-family: 'Open Sans', sans-serif;
 }
 
 #arrow {
     filter: invert(97%) sepia(100%) saturate(1%) hue-rotate(267deg) brightness(102%) contrast(101%);
-}
-
-#test {
-    position: absolute;
-    left:50%;
-    top:50%;
-    clip: rect(0, 85px, 75px, 0);
-    width:96px;
+    margin: 0 5px 0 0;
 }
 
 #coolblue-logo {
-    clip-path: inset(0 12px 21px 0);
+    position: relative;
+    left: 214px;
+    bottom: 76px;
+    clip-path: inset(0 9.9px 19.9px 0);
     width:96px;
+    height: 96px;
 }
