@@ -63,7 +63,7 @@ html, body {
     position: relative;
     right: -91px;
     bottom: 152px;
-    animation: spinning 1s linear infinite;
+    animation: spinning 1500ms linear infinite;
 }
 
 @keyframes spinning {
