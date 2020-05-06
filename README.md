@@ -9,8 +9,8 @@ Ik heb geprobeerd om het design zo goed mogelijk te benaderen. Op bepaalde vlakk
 
 
 ## schaalbaarheid
-Ik heb ervoor gekozen om de banner niet responsive te maken omdat de kwaliteit van de aangeleverde afbeeldingen niet consistent is.
+Ik heb ervoor gekozen om de banner niet responsive te maken omdat de kwaliteit van de aangeleverde afbeeldingen niet consistent is. Bij exact dezelfde afmetingen als dat van het ontwerp kan ik de kwaliteit enigszins garanderen. Uiteraard begrijp ik dat een afbeelding met exact hetzelfde formaat er op twee verschillende schermen consequenties hebben (past misschien zelfs niet :( ).
 
 ## Gekozen animaties
 In deze opdracht heb ik ervoor gekozen om twee onderwerpen te benadrukken: de prijs en het product.
-De prijs krijgt extra aandacht middels een "fade in" en het product (wasmachine) heb ik benadrukt door de belangrijkste functionaliteit van het product tot leven te brengen.
+De prijs krijgt extra aandacht middels een "fade in" en het product (wasmachine) heb ik benadrukt door de belangrijkste functionaliteit van het product tot leven te brengen (het wassen).
