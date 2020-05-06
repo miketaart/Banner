@@ -8,7 +8,7 @@ Ik heb geprobeerd om het design zo goed mogelijk te benaderen. Op bepaalde vlakk
 
 
 
-##schaalbaarheid
+## schaalbaarheid
 Ik heb ervoor gekozen om de banner niet responsive te maken omdat de kwaliteit van de aangeleverde afbeeldingen niet consistent is.
 
 ## Gekozen animaties
